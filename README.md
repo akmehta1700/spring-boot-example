@@ -12,7 +12,7 @@ This project is set up to use maven to build the jar executable ([maven](https:/
 ## Building and running locally
 Once you clone the project to your local system, you can build and test locally by running:
 
-`mvn clean test` - for unit testing
+`mvn clean test` - for unit testing.
 
 `mvn clean package` - to compile a *jar executable 
 which you can run locally
