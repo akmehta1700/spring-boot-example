@@ -8,6 +8,7 @@ This README file will provide instructions for building and running the service 
 This project is set up to use maven to build the jar executable ([maven](https://maven.apache.org/install.html)). 
 
 
+
 ## Building and running locally
 Once you clone the project to your local system, you can build and test locally by running:
 
