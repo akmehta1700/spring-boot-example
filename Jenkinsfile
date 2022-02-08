@@ -30,7 +30,9 @@ pipeline{
                     sh "mvn package"
                 }
             }
-        post {
+        
+    }
+    post {
         always{
             mail to: 'mehta.akanksha1@gmail.com',
 			subject: "Pipeline: ${currentBuild.fullDisplayName} is ${currentBuild.currentResult}",
@@ -38,5 +40,5 @@ pipeline{
         }
 
      }
-    }
 }
+
